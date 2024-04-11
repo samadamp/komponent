@@ -1,5 +1,5 @@
 import './NavBar.scss';
-import logo from '../../../public/img/kiwi.svg'
+import logo from '/img/kiwi.svg'
 
 
   

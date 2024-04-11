@@ -1,0 +1,42 @@
+.check-box-bar {
+  margin-bottom: 20px;
+
+  .progress-bar {
+    background-color: #f0f0f0;
+    height: 20px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+    .progress {
+      background-color: #007bff;
+      height: 100%;
+      transition: width 0.3s ease-in-out;
+    }
+  }
+
+  .checkboxes {
+    display: flex;
+
+    .checkbox {
+      margin-right: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .checkbox-input {
+        appearance: none;
+        border: 2px solid #007bff;
+        transition: background-color 0.3s, border-color 0.3s;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 20%;
+        margin: 0.2rem;
+        &:checked {
+            border-color: #007bff;
+            background-color: #007bff;
+          }
+      }
+    }
+  }
+}
